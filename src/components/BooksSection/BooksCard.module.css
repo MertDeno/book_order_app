@@ -1,0 +1,24 @@
+section {
+    background-color: white;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    animation: slide-down 300ms ease-out forwards;
+}
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

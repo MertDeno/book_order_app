@@ -1,0 +1,12 @@
+.modal {
+    width: 40%;
+    text-align: center;
+    background-color: #383838;
+    color: white;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: -10rem;
+    padding: 0.5rem 2rem;
+    box-sizing: border-box;
+    position: relative;
+}

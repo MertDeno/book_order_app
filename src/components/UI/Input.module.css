@@ -1,0 +1,12 @@
+input {
+    width: 3rem;
+    font: inherit;
+    border-radius: 5px;
+    border-width: 1px solid #ccc;
+    padding-left: 0.5rem;
+}
+
+label {
+    padding: 0.5rem;
+    font-weight: bold;
+}

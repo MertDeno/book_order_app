@@ -1,0 +1,45 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+
+form {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+input {
+    width: 3rem;
+    font: inherit;
+    border-radius: 5px;
+    border-width: 1px solid #ccc;
+    padding-left: 0.5rem;
+}
+
+label {
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #8a2b06;
+    font-weight: bold;
+    font-size: large;
+}
+
+form button {
+    width: 7rem;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    font-weight: bold;
+    font: inherit;
+}

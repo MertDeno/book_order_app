@@ -1,0 +1,54 @@
+.buttonDiv {
+    text-align: right;
+}
+
+.textFieldsForm {
+    text-align: left;
+}
+
+.TextField {
+    color: #8a2b06;
+}
+
+.errorText {
+    color: red;
+}
+
+.timer {
+    text-align: center;
+    background-color: #8a2b06;
+    color: white;
+    border: 1px solid #8a2b06;
+    padding: 0.75rem;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.cancelBtn {
+    background-color: white;
+    color: #8a2b06;
+    border: none;
+    width: 7rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font: inherit
+}
+
+.confirmBtn {
+    background-color: #8a2b06;
+    color: white;
+    border: none;
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font: inherit
+}
+
+.buttonDiv :active,
+.buttonDiv :hover {
+    background-color: #5a1a01;
+    color: white;
+}

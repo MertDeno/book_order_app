@@ -1,0 +1,21 @@
+.cancelBtn {
+    background-color: #8a2b06;
+    color: white;
+    border: none;
+    width: 7rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font: inherit
+}
+
+.successMessage {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btnSection {
+    text-align: right;
+}
