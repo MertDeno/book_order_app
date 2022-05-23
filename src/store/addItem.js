@@ -6,6 +6,11 @@ const addItemSlice = createSlice({
     name: 'addItem',
     initialState: initialAddItemState,
     reducers: {
+        replaceCart(state, action){
+            state.addedItems= action.payload.addedItems
+            state.amountOfItems = action.payload.amountOfItems
+            state.totalPrice = action.payload.totalPrice
+        },
         addNewItem(state, action){
             state.isAddBtnClicked = true
             state.amountOfItems = state.amountOfItems + action.payload

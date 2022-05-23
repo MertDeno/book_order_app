@@ -9,6 +9,7 @@ import CartOrderBtn from './CartOrderBtn';
 import Checkout from '../UI/Checkout'
 import Confirm from './Confirm';
 import { confirmItemActions } from '../../store/confirmItem';
+import { sendCartData } from '../../store/app-action';
 
 function Cart(props) {
     const booksArray = useSelector(state => state.addItem.addedItems)
@@ -39,15 +40,7 @@ function Cart(props) {
     }
 
     const confirmCarHandler = () => {
-        fetch("https://react-http-books-post-default-rtdb.firebaseio.com/orderedBooks.json",{
-            method: 'POST',
-            body: JSON.stringify({
-                orderedBooks: booksArray
-            })
-        })
-
-        dispatch(addItemActions.removeAllItems())
-        dispatch(addItemActions.removeCartInfo())
+        dispatch(sendCartData(booksArray))
     }
 
     return (
